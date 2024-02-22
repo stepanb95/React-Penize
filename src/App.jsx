@@ -1,28 +1,36 @@
 import './App.css';
+import DPH from './DPH';
+import Investice from './Investice';
+import Modal from './Modal';
+import Login from './Login';
+import Navbar from './Navbar';
+import Suma from './Suma';
+import PrevodMeny from './Prevod';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
-    </div>
+    <>
+    
+    
+    <Navbar></Navbar>
+    <Login></Login>
+    <Suma></Suma>
+   
+      <DPH></DPH>
+    <Investice></Investice>
+    <PrevodMeny></PrevodMeny>
+  
+
+    
+    
+    
+    
+    
+    
+    
+    </>
+    
   );
 }
 
